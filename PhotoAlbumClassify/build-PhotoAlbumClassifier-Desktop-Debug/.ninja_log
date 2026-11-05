@@ -1,0 +1,23 @@
+# ninja log v5
+16	413	1700399501801325958	PhotoAlbumClassifier_autogen/timestamp	40c186ff9391077
+16	413	1700399501801325958	PhotoAlbumClassifier_autogen/mocs_compilation.cpp	40c186ff9391077
+414	2818	1700399504214556747	CMakeFiles/PhotoAlbumClassifier.dir/PhotoAlbumClassifier_autogen/mocs_compilation.cpp.o	1fd6d2b3587b2fa1
+16	413	1700399501801325958	/home/geduer/data/code/qt/build-PhotoAlbumClassifier-Desktop-Debug/PhotoAlbumClassifier_autogen/timestamp	40c186ff9391077
+16	413	1700399501801325958	/home/geduer/data/code/qt/build-PhotoAlbumClassifier-Desktop-Debug/PhotoAlbumClassifier_autogen/mocs_compilation.cpp	40c186ff9391077
+415	3032	1700399504431214361	CMakeFiles/PhotoAlbumClassifier.dir/main.cpp.o	d34aac1e63221879
+123	3487	1700399383791481918	CMakeFiles/PhotoAlbumClassifier.dir/mainwindow.cpp.o	f33e66737cb3766f
+3487	4096	1700399384408204367	PhotoAlbumClassifier	fbcbb7c0b876431b
+17	130	1700399528960327033	PhotoAlbumClassifier_autogen/timestamp	40c186ff9391077
+17	130	1700399528960327033	PhotoAlbumClassifier_autogen/mocs_compilation.cpp	40c186ff9391077
+17	130	1700399528960327033	/home/geduer/data/code/qt/build-PhotoAlbumClassifier-Desktop-Debug/PhotoAlbumClassifier_autogen/timestamp	40c186ff9391077
+17	130	1700399528960327033	/home/geduer/data/code/qt/build-PhotoAlbumClassifier-Desktop-Debug/PhotoAlbumClassifier_autogen/mocs_compilation.cpp	40c186ff9391077
+137	3344	1700399532140231572	CMakeFiles/PhotoAlbumClassifier.dir/mainwindow.cpp.o	f33e66737cb3766f
+3345	4071	1700399532886876443	PhotoAlbumClassifier	fbcbb7c0b876431b
+17	404	1700399565839474206	PhotoAlbumClassifier_autogen/timestamp	40c186ff9391077
+17	404	1700399565839474206	PhotoAlbumClassifier_autogen/mocs_compilation.cpp	40c186ff9391077
+17	404	1700399565839474206	/home/geduer/data/code/qt/build-PhotoAlbumClassifier-Desktop-Debug/PhotoAlbumClassifier_autogen/timestamp	40c186ff9391077
+17	404	1700399565839474206	/home/geduer/data/code/qt/build-PhotoAlbumClassifier-Desktop-Debug/PhotoAlbumClassifier_autogen/mocs_compilation.cpp	40c186ff9391077
+404	2922	1700399568366101912	CMakeFiles/PhotoAlbumClassifier.dir/PhotoAlbumClassifier_autogen/mocs_compilation.cpp.o	1fd6d2b3587b2fa1
+405	3070	1700399568516099675	CMakeFiles/PhotoAlbumClassifier.dir/main.cpp.o	d34aac1e63221879
+406	3976	1700399569412753126	CMakeFiles/PhotoAlbumClassifier.dir/mainwindow.cpp.o	f33e66737cb3766f
+3977	4741	1700399570192741855	PhotoAlbumClassifier	fbcbb7c0b876431b

@@ -1,0 +1,9 @@
+/home/geduer/data/code/qt/build-PhotoAlbumClassifier-Desktop-Debug/CMakeFiles/PhotoAlbumClassifier.dir
+/home/geduer/data/code/qt/build-PhotoAlbumClassifier-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/geduer/data/code/qt/build-PhotoAlbumClassifier-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/geduer/data/code/qt/build-PhotoAlbumClassifier-Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/geduer/data/code/qt/build-PhotoAlbumClassifier-Desktop-Debug/CMakeFiles/install.dir
+/home/geduer/data/code/qt/build-PhotoAlbumClassifier-Desktop-Debug/CMakeFiles/install/local.dir
+/home/geduer/data/code/qt/build-PhotoAlbumClassifier-Desktop-Debug/CMakeFiles/install/strip.dir
+/home/geduer/data/code/qt/build-PhotoAlbumClassifier-Desktop-Debug/CMakeFiles/PhotoAlbumClassifier_autogen_timestamp_deps.dir
+/home/geduer/data/code/qt/build-PhotoAlbumClassifier-Desktop-Debug/CMakeFiles/PhotoAlbumClassifier_autogen.dir

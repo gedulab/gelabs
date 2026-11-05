@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-c2605d7a0e0cc04d114a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PhotoAlbumClassifier",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "PhotoAlbumClassifier::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PhotoAlbumClassifier-Debug-7288bda126531a9a47cf.json",
+					"name" : "PhotoAlbumClassifier",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PhotoAlbumClassifier_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PhotoAlbumClassifier_autogen-Debug-e1fe4219c35a3caee228.json",
+					"name" : "PhotoAlbumClassifier_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PhotoAlbumClassifier_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PhotoAlbumClassifier_autogen_timestamp_deps-Debug-5ed7e706a4c8f00ec55e.json",
+					"name" : "PhotoAlbumClassifier_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/geduer/data/code/qt/build-PhotoAlbumClassifier-Desktop-Debug",
+		"source" : "/home/geduer/data/code/qt/PhotoAlbumClassifier"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
