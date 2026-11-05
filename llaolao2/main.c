@@ -20,6 +20,7 @@
 #include <asm/mmu_context.h>
 #include <asm/tlbflush.h>
 #include "gearm.h"
+#include "llaolao.h"
 
 #if LINUX_VERSION_CODE >= KERNEL_VERSION(5,6,0)
 #define HAVE_PROC_OPS
@@ -65,7 +66,8 @@ static struct proc_dir_entry *proc_lll_entry = NULL ;
 int g_seed = 0;
 gd_box box;
 
-void set_version(gd_box* box,enum gd_box_id flag){
+void ge_assign_sku(gd_box* box,enum gd_box_id flag)
+{
     if (flag == gdk8) {
         box->tsadc_base = GDK8_TSADC_BASE;
         box->tsadc_grf_size = GDK8_TSADC_GRF_SIZE;
@@ -482,9 +484,9 @@ static int __init llaolao_init(void)
 {
     int n = 0x1937, ret = 0, i;
     static struct lll_profile_struct lll_profile;
-    enum gd_box_id temp_version =get_gd_box_version(get_gd_box_id());
-    printk("version=%s",temp_version==2643?"GDK8":"ULAN");
-    set_version(&box,temp_version);
+    enum gd_box_id temp_version = get_gd_box_version(get_gd_box_id());
+    printk("SKU=%s", temp_version==2643?"GDK8":"ULAN");
+    ge_assign_sku(&box,temp_version);
     printk(KERN_INFO "Hi, I am llaolao at address: %p\n symbol: 0x%pF\n stack: 0x%p\n"
         " first 16 bytes: %*phC\n",
 	    llaolao_init, llaolao_init, &n, 16, (char*)llaolao_init);
@@ -496,7 +498,11 @@ static int __init llaolao_init(void)
     }
 #endif
 
+#if LINUX_VERSION_CODE >= KERNEL_VERSION(6, 4, 0)
+    huadeng_class = class_create(DEVICE_NAME);
+#else
     huadeng_class = class_create(THIS_MODULE, DEVICE_NAME);
+#endif
     for (i = 0; i < NUM_DEVICES; i++) {
         /* Allocate memory for the per-device structure */
         hd_devp[i] = kmalloc(sizeof(struct huadeng_dev), GFP_KERNEL);
